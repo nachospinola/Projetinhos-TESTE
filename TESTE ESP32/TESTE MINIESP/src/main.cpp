@@ -7,7 +7,7 @@ const int ledPins[] = {GPIO_NUM_0, GPIO_NUM_1, GPIO_NUM_2, GPIO_NUM_3};
 const int numLeds = sizeof(ledPins) / sizeof(ledPins[0]);
 int currentLed = 0;
 
-const int potPin = 34;
+const int potPin = GPIO_NUM_9;
 volatile int valorPot = 0;
 volatile unsigned long previousMillis = 0;
 
